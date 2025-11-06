@@ -59,7 +59,7 @@ const Contact = () => {
             className="p-2 w-[510px] 2xl:w-[460px] xl:w-[380px] lg:w-[320px] md:w-64 sm:w-52 h-72 md:h-48 sm:h-40 bg-[#393e46] rounded-lg text-[#eeeeee] resize-none text-sm md:text-xs"
           ></textarea>
 
-          <button className="w-40 xl:w-32 lg:w-28 md:w-24 sm:w-20 h-10 my-4 bg-[#00adb5] rounded-3xl text-[#eeeeee] text-center text-sm md:text-[10px] flex items-center justify-center gap-2 md:gap-1.5 p-3 hover:bg-[#00c3cc] transition">
+          <button className="w-40 xl:w-32 lg:w-28 md:w-24 sm:w-20 h-10 my-4 bg-[#393E46] hover:bg-[#00adb5] transition-transform duration-200 ease-in-out hover:scale-110 cursor-pointer rounded-3xl text-[#eeeeee] text-center text-sm md:text-[10px] flex items-center justify-center gap-2 md:gap-1.5 p-3 ">
             Send message
             <BsSend className="size-4 md:size-3 items-center" />
           </button>
